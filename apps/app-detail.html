@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download the latest version of this modded APK with premium features unlocked for free.">
+    <title>App Details - ModMaster</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <span class="logo-icon"><i class="fas fa-rocket"></i></span>
+                    <span class="logo-text">Mod<span class="highlight">Master</span></span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#featured">Featured</a></li>
+                    <li><a href="../index.html#categories">Categories</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search apps...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="app-detail">
+        <div class="container">
+            <div class="loading-spinner" id="app-detail-loader">
+                <div class="spinner"></div>
+            </div>
+            <div class="app-detail-content" id="app-detail-content" style="display: none;">
+                <div class="app-header">
+                    <div class="app-icon">
+                        <img id="app-icon" src="" alt="App Icon">
+                    </div>
+                    <div class="app-info">
+                        <h1 id="app-name"></h1>
+                        <div class="app-meta">
+                            <span id="app-version"></span>
+                            <span id="app-size"></span>
+                            <span id="app-category"></span>
+                        </div>
+                        <div class="app-rating">
+                            <div class="stars" id="app-rating"></div>
+                            <span id="app-downloads"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="app-actions">
+                    <a href="#" id="download-btn" class="btn btn-primary"><i class="fas fa-download"></i> Download APK</a>
+                    <a href="#" id="report-btn" class="btn btn-secondary"><i class="fas fa-flag"></i> Report</a>
+                </div>
+                
+                <div class="app-screenshots">
+                    <h2>Screenshots</h2>
+                    <div class="screenshots-container" id="screenshots-container">
+                        <!-- Screenshots will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <div class="app-description">
+                    <h2>Description</h2>
+                    <div class="description-content" id="app-description">
+                        <!-- Description will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <div class="app-features">
+                    <h2>What's Modded</h2>
+                    <ul id="mod-features">
+                        <!-- Mod features will be loaded dynamically -->
+                    </ul>
+                </div>
+                
+                <div class="app-requirements">
+                    <h2>Requirements</h2>
+                    <ul id="app-requirements">
+                        <!-- Requirements will be loaded dynamically -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="similar-apps">
+                <h2>Similar <span class="highlight">Apps</span></h2>
+                <div class="apps-grid" id="similar-apps-container">
+                    <!-- Similar apps will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About ModMaster</h3>
+                    <p>ModMaster provides high-quality modded APKs for Android users, offering premium features without the cost.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../index.html#featured">Featured Apps</a></li>
+                        <li><a href="../index.html#categories">Categories</a></li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Categories</h3>
+                    <ul id="footer-categories-list">
+                        <!-- Categories will be loaded dynamically from JavaScript -->
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> ishant150407@gmail.com</p>
+                    <a href="../contact.html" class="btn btn-secondary btn-sm">Send Message</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ModMaster. Created by Ishant Webworks. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/app-detail.js"></script>
+</body>
+</html>
